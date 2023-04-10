@@ -1,0 +1,46 @@
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.input-box input,
+.input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.message-box{
+  min-height: 130px;
+}
+.input-box textarea{
+  padding-top: 6px;
+}
+.button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.button input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #3e2093;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  background: #5029bc;
+}
+
