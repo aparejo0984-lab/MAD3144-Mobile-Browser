@@ -40,46 +40,10 @@
   <!-- 
     - #HEADER
   -->
-  <header class="header" data-header>
-    <div class="container">
-  
-      <a href="#">
-        <h1 class="logo">Pilipinas</h1>
-      </a>
-  
-      <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
-        <ion-icon name="menu-outline" class="open"></ion-icon>
-        <ion-icon name="close-outline" class="close"></ion-icon>
-      </button>
-  
-      <nav class="navbar">
-  
-        <ul class="navbar-list">
-  
-          <li>
-            <a href="../../index.html" class="navbar-link">Home</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Destinations</a>
-          </li>
-  
-          <li>
-            <a href="../../aboutus.html" class="navbar-link">About Us</a>
-          </li>
-
-          <li>
-            <a href="../../contactus.html" class="navbar-link">Contact Us</a>
-          </li>
-  
-        </ul>
-  
-        <a href="#" class="btn btn-secondary">Booking Now</a>
-  
-      </nav>
-  
-    </div>
-  </header>
+  <!-- 
+    - #HEADER
+  -->
+  <div w3-include-html="header.html"></div>
 
   <main>
     <article>
@@ -228,159 +192,7 @@
   <!-- 
     - #FOOTER
   -->
-  <footer class="footer" style="background-image: url('./../../assets/images/footer-bg.png')">
-    <div class="container">
-
-      <div class="footer-top">
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Top destination</p>
-          </li>
-
-          <li>
-            <a href="./cebu.html" class="footer-link">Cebu and Bohol</a>
-          </li>
-
-          <li>
-            <a href="./palawan.html" class="footer-link">Palawan</a>
-          </li>
-
-          <li>
-            <a href="./boracay.html" class="footer-link">Boracay, Aklan</a>
-          </li>
-
-          <li>
-            <a href="./leyte.html" class="footer-link">Leyte and Samar</a>
-          </li>
-
-          <li>
-            <a href="./siargao.html" class="footer-link">Siargao</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Categories</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Travel</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Lifestyle</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Fashion</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Education</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Food & Drink</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Quick links</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">About</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Contact</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Tours</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Booking</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
-          </li>
-
-        </ul>
-
-        <div class="footer-list">
-
-          <p class="footer-list-title">Get a newsletter</p>
-
-          <p class="newsletter-text">
-            For the latest deals and tips, travel no further than your inbox
-          </p>
-
-          <form action="" class="newsletter-form">
-            <input type="email" name="email" required placeholder="Email address" class="newsletter-input">
-
-            <button type="submit" class="btn btn-primary">Subscribe</button>
-          </form>
-
-        </div>
-
-      </div>
-
-      <div class="footer-bottom">
-
-        <a href="#" class="logo">Lakbay Pinas</a>
-
-        <p class="copyright">
-          &copy; 2023 <a href="#" class="copyright-link">LakbayPinas</a>. All Rights Reserved
-        </p>
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-google"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </div>
-  </footer>
+  <div w3-include-html="footer.html"></div>
 
   <!-- 
     - #GO TO TOP
@@ -390,7 +202,10 @@
     <ion-icon name="chevron-up-outline"></ion-icon>
   </a>
 
-    <!-- 
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script>w3.includeHTML();</script>
+
+  <!-- 
     - custom js link
   -->
   <script src="./../../assets/js/script.js"></script>
